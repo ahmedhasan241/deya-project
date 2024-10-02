@@ -1,0 +1,17 @@
+export enum Status {
+  PENDING = "pending",
+  ACTIVE = "Active",
+  INACTIVE = "inactive",
+  REJECT = "reject",
+  VISIT = "Visit",
+  POST_CREATION = "Post Creation",
+  SHARE = "Share",
+  MIX = "Mix",
+  DELIVERY = "Delivery",
+  FINISHED = "Finished",
+  CANCLED = "Canceled",
+  CANCLED_AND_CLOSED = "Canceled & Closed",
+  DRAFTED = "Drafted",
+  ON_HOLD = "On Hold",
+  DECLINED = "Declined",
+}

@@ -1,0 +1,369 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+/* * {
+  scrollbar-width: thin;
+  scrollbar-color: theme("colors.primary") theme("colors.transparent");
+} */
+
+
+.ant-input-search :where(.css-dev-only-do-not-override-164ko14).ant-input-group .ant-input-affix-wrapper:not(:last-child) {
+  /* background-color: #1D1D1D !important;
+  border: #1D1D1D 1px solid !important;
+  color: #8B8B8B !important; */
+  padding: 15px ;
+
+}
+
+
+:where(.css-dev-only-do-not-override-44hn01)[class^="ant-input"] [class^="ant-input"], :where(.css-dev-only-do-not-override-44hn01)[class*=" ant-input"] [class^="ant-input"], :where(.css-dev-only-do-not-override-44hn01)[class^="ant-input"] [class*=" ant-input"], :where(.css-dev-only-do-not-override-44hn01)[class*=" ant-input"] [class*=" ant-input"] {
+    box-sizing: border-box;
+    height: 100%;
+}
+/* .custom-search .anticon svg {
+  width: 27.5px !important; 
+  height: 27.5px !important;
+}
+:where(.css-dev-only-do-not-override-164ko14).ant-input-affix-wrapper >input.ant-input {
+    color: #8B8B8B !important;
+    font-size: 20px !important;
+}
+
+:where(.css-dev-only-do-not-override-164ko14).ant-input-search >.ant-input-group >.ant-input-group-addon:last-child .ant-input-search-button:not(.ant-btn-primary) {
+    background-color: #1D1D1D !important;
+  border: #1D1D1D 1px solid !important;
+  color: #8B8B8B !important;
+    padding: 16.5px 30px  !important;
+    height: 100%;
+}
+:where(.css-dev-only-do-not-override-44hn01).ant-input-search >.ant-input-group >.ant-input-group-addon:last-child .ant-input-search-button:not(.ant-btn-primary)  {
+height: 41px !important;
+padding: 0 5px;
+} */
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 8px;
+  height: 6px;
+}
+
+*::-webkit-scrollbar-track {
+  background: theme("colors.transparent");
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: theme("colors.primary");
+  border: 3px solid var(--primary);
+}
+
+.thin-scroll::-webkit-scrollbar {
+  width: 2px;
+  height: 2px;
+  scroll-behavior: smooth;
+  scrollbar-width: 2px;
+}
+
+.no-scroll {
+  scrollbar-width: none;
+}
+
+html,
+body {
+  height: 100%;
+  box-sizing: border-box;
+  touch-action: manipulation;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* color: theme("colors.fontColor");  */
+  overscroll-behavior-x: none;
+  scroll-behavior: smooth;
+  margin: 0px !important;
+  box-sizing: border-box !important;
+}
+
+/* .custome-search button {
+  background: transparent !important;
+  padding: 0 10px;
+} */
+ .ant-layout .ant-layout-header {
+  height: fit-content;
+ }
+ .react-tel-input .form-control ,.react-tel-input .flag-dropdown {
+  border: none !important;
+ }
+ .react-tel-input .country-list .country {
+  color: black !important;
+ }
+.ant-empty-description {
+  color: white !important;
+}
+.ant-input-search-button {
+  background-color: #232323 !important;
+  border-color: #232323 !important;
+  color:#8B8B8B !important
+}
+.ant-input-search-button:hover {
+  background-color:#232323 !important;
+  border-color: #232323 !important;
+}
+.ant-input {
+  color: #BE7406 !important;
+}
+.ant-input-group .ant-input-group-addon {
+    color: #BE7406 !important;
+    font-size : 24px ;
+}
+
+
+.ant-form-item .ant-form-item-label >label {
+    color: #BE7406 !important;
+    font-size : 17px ;
+}
+.profile-link.ant-form-item .ant-form-item-label >label {
+    color: #BE7406 !important;
+    font-size : 24px ;
+}
+.ant-input-group >.ant-input:first-child {
+  padding: 13px !important;
+}
+.ant-input {
+padding: 15px !important;
+}
+
+.ant-radio-wrapper span.ant-radio+* {
+  color: white !important;
+}
+.ant-radio-group {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: rgba(0, 0, 0, 0.88);
+    font-size: 0;
+    line-height: 1.5714285714285714;
+    list-style: none;
+    font-family: inherit;
+    display: flex;
+    justify-content: space-between;
+}
+.ant-select-selector  {
+  padding: 12px !important;
+}
+.ant-select-single.ant-select-show-arrow .ant-select-selection-item {
+  color: #BE7406 !important;
+}
+/* .ant-input-search:hover {
+  border: 1px solid #a88647;
+} */
+
+/* .custome-search button:hover {
+  background: transparent !important;
+} */
+/* 
+.custome-search button:focus-visible {
+  outline: none !important;
+}
+
+.custome-search button:active {
+  background: none !important;
+}
+
+.custome-search input {
+  border: none;
+}
+
+.custome-search input:hover {
+  border: none !important;
+} */
+
+/* .custome-search {
+  border-radius: 6px;
+  border: 1px solid #d3d3d3;
+  font-size: 14px;
+} */
+
+
+
+.filter-collapse .ant-collapse-header {
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.invitaion-collapse .invitaion-collapse {
+  padding-inline-start: 6px;
+  height: fit-content !important;
+}
+
+.card-checkbox > span:nth-child(2) {
+  padding: 0;
+  background-color: #a88647;
+}
+
+.card-checkbox .ant-checkbox {
+  position: absolute;
+  top: 16px;
+  left: 12px;
+}
+
+.progress-status > span:nth-child(2) {
+  position: absolute;
+  width: fit-content;
+  top: 35%;
+  left: 0;
+  font-size: 9px;
+  font-weight: 600;
+  color: white;
+}
+
+iframe > html > body > div > div > .Embed > div > .Content {
+  height: 207px !important;
+  min-height: 207px !important;
+}
+
+.no-wrap {
+  text-wrap: nowrap;
+  overflow-wrap: break-word !important;
+}
+
+.is-new-gradient {
+  background: linear-gradient(180deg, #daab5e 0%, #aa7d32 100%);
+}
+
+.ant-modal-close {
+  color: theme("colors.danger") !important;
+}
+
+/* .path {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: dash 2s linear forwards infinite;
+}
+
+@keyframes dash {
+  from {
+    stroke-dashoffset: 822;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+} */
+
+.daysOffCalender .ant-picker-cell-selected .ant-picker-calendar-date-value {
+  background-color: white !important;
+  color: theme("colors.fontColor") !important;
+}
+
+.calender_tab .ant-tabs-nav-wrap {
+  justify-content: flex-end;
+}
+
+.ant-picker-time-panel-cell-selected .ant-picker-time-panel-cell-inner {
+  color: theme("colors.white") !important;
+}
+
+.ant-picker-time-panel-cell-selected .ant-picker-time-panel-cell-inner:hover {
+  color: theme("colors.fontColor") !important;
+}
+
+.ant-checkbox + span {
+  width: 100%;
+}
+
+.leaflet-control-geosearch {
+  width: 100% !important;
+  display: flex !important;
+  justify-content: center;
+}
+
+.leaflet-touch .leaflet-geosearch-bar form {
+  width: 65%;
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.16) !important;
+  padding: 11px 16px !important;
+  border: none !important;
+}
+
+.leaflet-control-geosearch button.reset {
+  height: 90%;
+  font-size: 24px;
+  max-height: 50px;
+}
+
+@media only screen and (min-width: 768px) {
+  .responsive-Search .leaflet-control-geosearch form {
+    width: calc(100% - 200px) !important;
+  }
+
+  .leaflet-control-geosearch {
+    width: 100% !important;
+    display: flex !important;
+    justify-content: center;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .leaflet-touch .leaflet-geosearch-bar form {
+    width: 65%;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .leaflet-touch .leaflet-geosearch-bar form {
+    width: 80% !important;
+    margin: 0px auto !important;
+  }
+
+  .leaflet-touch .leaflet-control-geosearch {
+    width: 65% !important;
+    display: flex !important;
+    justify-content: flex-end;
+    margin: 10px 316px !important;
+  }
+
+  .responsive-Search .leaflet-control-geosearch form {
+    margin-right: 50px !important;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .leaflet-touch .leaflet-geosearch-bar form {
+    width: 77% !important;
+    margin-right: 80px !important;
+  }
+  .leaflet-touch .leaflet-control-geosearch {
+    width: 45% !important;
+    display: flex !important;
+    justify-content: flex-end;
+    margin: 10px 376px !important;
+  }
+
+  .responsive-Search .leaflet-control-geosearch form {
+    margin-right: 50px !important;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .leaflet-control-geosearch {
+    width: 55% !important;
+    margin-right: 143px !important;
+  }
+}
+
+.dark .leaflet-control-geosearch {
+  color: theme("colors.fontColor") !important;
+}
+
+.leaflet-top,
+.leaflet-bottom {
+  display: none;
+}
